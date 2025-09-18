@@ -129,6 +129,9 @@ npm run preview
 
 所有样式都在 `src/styles/auth.css` 中定义，可以根据需要修改颜色、字体、布局等。
 
+### 部署 vercel
+https://juejin.cn/post/7301193497247727652?searchId=202509181636003E648F32567263ABBC50
+
 ## 许可证
 
 MIT License
