@@ -68,7 +68,7 @@ export const useUserRole = () => {
 
     try {
       // 首先检查用户角色记录是否存在
-      const { data: existingRole, error: fetchError } = await supabase
+      const { data: _existingRole, error: fetchError } = await supabase
         .from('user_roles')
         .select('*')
         .eq('user_id', user.id)
